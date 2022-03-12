@@ -1,2 +1,4 @@
+Comparator_Output=Comparator_N,Comparator_P
 JTAG=JTAG_TDO,JTAG_TDI,JTAG_TCK,JTAG_TMS
+Signal=Trigger_P,Trigger_N
 SPI=MISO,MCLK,\C\S\,MOSI
