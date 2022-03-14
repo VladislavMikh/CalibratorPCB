@@ -1,1 +1,2 @@
-Signal=Trigger_P,Trigger_N
+DelayCode=D9,D8,D7,D6,D5,D4,D3,D2,D1,D0
+Signal=Signal_P,Signal_N
