@@ -2,3 +2,5 @@
 Version=1.0
 [Project1]
 ProjectPath=Mainboard\Mainboard.PrjPcb
+[Project2]
+ProjectPath=..\..\..\Downloads\tcs_encoder_pcb-master\tcs_encoder_pcb-master\PowerBoard.PrjPcb
