@@ -2,3 +2,5 @@
 Version=1.0
 [Project1]
 ProjectPath=Mainboard\Mainboard.PrjPcb
+[Project2]
+ProjectPath=..\..\..\Desktop\Downloads\IPN_LE v1.0\IPN_LE v1.0.PrjPcb
