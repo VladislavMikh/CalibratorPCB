@@ -4,3 +4,5 @@ Version=1.0
 ProjectPath=Mainboard\Mainboard.PrjPcb
 [Project2]
 ProjectPath=..\Defectoscope\DevKit\DevKit.PrjPcb
+[Project3]
+ProjectPath=..\..\..\Desktop\Armtell_PCBs\DCN_LE v1.0\DCN_LE v1.0.PrjPcb
