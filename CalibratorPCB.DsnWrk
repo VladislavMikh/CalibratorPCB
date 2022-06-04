@@ -2,5 +2,3 @@
 Version=1.0
 [Project1]
 ProjectPath=Mainboard\Mainboard.PrjPcb
-[Project3]
-ProjectPath=..\..\..\Downloads\ul_LFTVXO076346REEL\AltiumDesigner\2022-06-03_16-55-26\LFTVXO076346REEL.LibPkg

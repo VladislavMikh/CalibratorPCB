@@ -1,0 +1,38 @@
+﻿Board Layer Stack
+Number;Name;Type;Manufacturer;Material;Process;Thickness (mm);Weight (oz);Dk;Df;Orientation;Copper Orientation;Pullback distance (mm);Description;Color;Constructions;Solid (%);Resin (%);Frequency (MHz);GlassTransTemp (°C)
+;Top Overlay;Overlay;;;;;;;;;;;;;;;;;
+;Top Solder Mask;Solder Mask;Altium Designer;SM-001;;0.025;;3.5;0.03;;;;;#FF008000;;1;;1000;125
+;Top Copper Plating;Surface Finish;;PbSn;HASL;0.027;;;;;;;;#FFF2F2F2;;;;;
+1;Top Layer;Signal;Altium Designer;CF-003;ED;0.018;0.5;;;Top;Above;;Copper Foil;;;;;;
+;Top Prepreg;Prepreg;Rezonit;FR4;;0.127;;4.2;0.018;;;;;;2116HR;;55;1;130
+2;GND Layer;Plane;Altium Designer;CF-003;ED;0.018;0.5;;;;Above;0.508;Copper Foil;;;;;;
+;Core;Core;Rezonit;FR4;;1.2;;4.6;0.018;;;;;;1;;1;1;130
+3;Power Layer;Plane;Altium Designer;CF-003;ED;0.018;0.5;;;;Below;0.508;Copper Foil;;;;;;
+;Bottom Prepreg;Prepreg;Rezonit;FR4;;0.127;;4.2;0.018;;;;;;2116HR;;55;1;130
+4;Bottom Layer;Signal;Altium Designer;CF-003;ED;0.018;0.5;;;Bottom;Below;;Copper Foil;;;;;;
+;Bottom Copper Plating;Surface Finish;;PbSn;HASL;0.027;;;;;;;;#FFF2F2F2;;;;;
+;Bottom Solder Mask;Solder Mask;Altium Designer;SM-001;;0.025;;3.5;0.03;;;;;#FF008000;;1;;1000;125
+;Bottom Overlay;Overlay;;;;;;;;;;;;;;;;;
+
+
+Impedances
+#;Target impedance (Ω);Type;Trace layer;Calculated impedance (Ω);Trace width (mm);Gap (mm);Reference layers;Stack
+1;50;Single;Bottom Layer;50.0195;0.21047;;Power Layer;Board Layer Stack
+
+2;50;Single;Top Layer;50.0195;0.21047;;GND Layer;Board Layer Stack
+
+3;90;Diff pair;Bottom Layer;89.9426;0.2;0.2;Power Layer;Board Layer Stack
+
+4;90;Diff pair;Top Layer;89.9426;0.2;0.2;GND Layer;Board Layer Stack
+
+5;100;Diff pair;Bottom Layer;99.9694;0.15707;0.2;Power Layer;Board Layer Stack
+
+6;100;Diff pair;Top Layer;99.9694;0.15707;0.2;GND Layer;Board Layer Stack
+
+
+Via types
+#;Name;Type;Layers;Stack
+1;Thru 1:4;Thru;Top Layer-Bottom Layer;Board Layer Stack
+
+
+No back drills
