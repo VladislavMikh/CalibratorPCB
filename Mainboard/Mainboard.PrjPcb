@@ -31,7 +31,7 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
-OutputPath=Project Outputs for Mainboard
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -441,26 +441,22 @@ DocumentPath=Project Outputs for Mainboard\Folder Structure\CalibratorPCB_v1.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for Mainboard\Folder Structure\CalibratorPCB_v1.html
-DItemRevisionGUID=
-
-[GeneratedDocument17]
 DocumentPath=Project Outputs for Mainboard\Folder Structure\CalibratorPCB_v1.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument18]
+[GeneratedDocument17]
 DocumentPath=Project Outputs for Mainboard\Folder Structure\CalibratorPCB_v1.REP
 DItemRevisionGUID=
 
-[GeneratedDocument19]
+[GeneratedDocument18]
 DocumentPath=Project Outputs for Mainboard\Folder Structure\CalibratorPCB_v1.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument20]
+[GeneratedDocument19]
 DocumentPath=Project Outputs for Mainboard\Design Rule Check - CalibratorPCB_v1.html
 DItemRevisionGUID=
 
-[GeneratedDocument21]
+[GeneratedDocument20]
 DocumentPath=Project Outputs for Mainboard\Folder Structure\Pick Place for CalibratorPCB_v1.csv
 DItemRevisionGUID=
 
@@ -511,7 +507,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for Mainboard
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1558,8 +1554,8 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=Library.DbLib/Symbol_SchLib.csv
-ComponentDesignItemID0=TRIM_3006P-1-103LF
-ComponentSymbolReference0=Potenciometr
+ComponentDesignItemID0=TPS7A0313PDBVR
+ComponentSymbolReference0=TPS7A0313PDBVR
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1579,43 +1575,68 @@ ParameterName0=BOMDescription
 ParameterUpdate0=1
 ParameterName1=CFootprint
 ParameterUpdate1=1
-ParameterName2=Comment
+ParameterName2=ClassName
 ParameterUpdate2=1
-ParameterName3=Component Kind
+ParameterName3=Comment
 ParameterUpdate3=1
-ParameterName4=ComponentLink1Description
+ParameterName4=Component Kind
 ParameterUpdate4=1
-ParameterName5=ComponentLink1URL
+ParameterName5=ComponentLink1Description
 ParameterUpdate5=1
-ParameterName6=Description
+ParameterName6=ComponentLink1URL
 ParameterUpdate6=1
-ParameterName7=Library Reference
+ParameterName7=Description
 ParameterUpdate7=1
-ParameterName8=Manufacturer
+ParameterName8=Height
 ParameterUpdate8=1
-ParameterName9=MntType
+ParameterName9=Library Reference
 ParameterUpdate9=1
-ParameterName10=MPN
+ParameterName10=Manufacturer
 ParameterUpdate10=1
-ParameterName11=MSL
+ParameterName11=ManufacturerAlt
 ParameterUpdate11=1
-ParameterName12=Package
+ParameterName12=MntType
 ParameterUpdate12=1
-ParameterName13=Part Number
+ParameterName13=MPN
 ParameterUpdate13=1
-ParameterName14=PartType
+ParameterName14=MPNAlt
 ParameterUpdate14=1
-ParameterName15=Pins
+ParameterName15=MSL
 ParameterUpdate15=1
-ParameterName16=RoHS
+ParameterName16=Notes
 ParameterUpdate16=1
-ParameterName17=Value
+ParameterName17=Package
 ParameterUpdate17=1
+ParameterName18=Part Number
+ParameterUpdate18=1
+ParameterName19=PartType
+ParameterUpdate19=1
+ParameterName20=Pins
+ParameterUpdate20=1
+ParameterName21=Power
+ParameterUpdate21=1
+ParameterName22=RoHS
+ParameterUpdate22=1
+ParameterName23=System
+ParameterUpdate23=1
+ParameterName24=TempCoeff
+ParameterUpdate24=1
+ParameterName25=Tolerance
+ParameterUpdate25=1
+ParameterName26=Value
+ParameterUpdate26=1
+ParameterName27=Voltage
+ParameterUpdate27=1
+ParameterName28=Weight
+ParameterUpdate28=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=TRIM_3006P-1-103LF
+ModelName0=PLS2
 ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=SOT-23-5
+ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
