@@ -3,8 +3,8 @@ Version=1.0
 HierarchyMode=0
 ChannelRoomNamingStyle=0
 ReleasesFolder=
-ChannelDesignatorFormatString=$Component_$RoomName
-ChannelRoomLevelSeperator=_
+ChannelDesignatorFormatString=$RoomName.$Component
+ChannelRoomLevelSeperator=.
 OpenOutputs=1
 ArchiveProject=0
 TimestampOutput=0
@@ -365,6 +365,23 @@ DocumentUniqueId=PEMTYULV
 
 [Document20]
 DocumentPath=ClockGen.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document21]
+DocumentPath=CalibratorPCB_v1.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -1539,10 +1556,10 @@ IndexStartValue13=1
 Suffix13=
 
 [PrjClassGen]
-CompClassManualEnabled=0
+CompClassManualEnabled=1
 CompClassManualRoomEnabled=0
-NetClassAutoBusEnabled=1
-NetClassAutoCompEnabled=0
+NetClassAutoBusEnabled=0
+NetClassAutoCompEnabled=1
 NetClassAutoNamedHarnessEnabled=0
 NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
