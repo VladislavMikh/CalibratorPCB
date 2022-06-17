@@ -17,11 +17,11 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=OutputJob.OutJob
 Description=
-TargetOutputMedium=Folder Structure
+TargetOutputMedium=PDF
 VariantName=[No Variations]
 VariantScope=0
 CurrentConfigurationName=
-TargetPrinter=Kyocera ECOSYS M3040idn
+TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -52,7 +52,7 @@ OutputName2=Bill of Materials
 OutputCategory2=Report
 OutputDocumentPath2=
 OutputVariantName2=
-OutputEnabled2=1
+OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=0
 OutputEnabled2_OutputMedium3=3
@@ -72,11 +72,11 @@ Configuration2_Item5=Designator=211|BOMDescription=314|Footprint=236|Quantity=80
 Configuration2_Name6=VisibleOrder_Flat
 Configuration2_Item6=Designator=211|BOMDescription=314|Footprint=236|Quantity=80
 OutputType3=Gerber
-OutputName3=TestBoard_FPGA_Slaves
+OutputName3=Calibrator_v2
 OutputCategory3=Fabrication
-OutputDocumentPath3=CalibratorPCB_v1.PcbDoc
+OutputDocumentPath3=CalibratorPCB_v2.PcbDoc
 OutputVariantName3=
-OutputEnabled3=1
+OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=0
 OutputEnabled3_OutputMedium3=1
@@ -85,11 +85,11 @@ OutputDefault3=0
 Configuration3_Name1=OutputConfigurationParameter1
 Configuration3_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=True|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973834~1,16777217~1,16842753~1,16842754~1,16842751~1,16973835~1,16973831~1,16908291~1,16908294~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=C:\Users\Vlad\Documents\GitHub\CalibratorPCB\Mainboard\CalibratorPCB_v1.PcbDoc
 OutputType4=NC Drill
-OutputName4=TestBoard_FPGA_Slaves
+OutputName4=Calibrator_v2
 OutputCategory4=Fabrication
-OutputDocumentPath4=CalibratorPCB_v1.PcbDoc
+OutputDocumentPath4=CalibratorPCB_v2.PcbDoc
 OutputVariantName4=
-OutputEnabled4=1
+OutputEnabled4=0
 OutputEnabled4_OutputMedium1=0
 OutputEnabled4_OutputMedium2=0
 OutputEnabled4_OutputMedium3=2
@@ -98,11 +98,11 @@ OutputDefault4=0
 Configuration4_Name1=OutputConfigurationParameter1
 Configuration4_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=True|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=True|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes|DocumentPath=C:\Users\Vlad\Documents\GitHub\CalibratorPCB\Mainboard\CalibratorPCB_v1.PcbDoc
 OutputType5=Pick Place
-OutputName5=TestBoard_FPGA_Slaves_P_P
+OutputName5=Calibrator_v2
 OutputCategory5=Assembly
-OutputDocumentPath5=CalibratorPCB_v1.PcbDoc
+OutputDocumentPath5=CalibratorPCB_v2.PcbDoc
 OutputVariantName5=
-OutputEnabled5=1
+OutputEnabled5=0
 OutputEnabled5_OutputMedium1=0
 OutputEnabled5_OutputMedium2=0
 OutputEnabled5_OutputMedium3=4
@@ -113,7 +113,7 @@ Configuration5_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|Ge
 OutputType6=PCB 3D Print
 OutputName6=PCB 3D Print
 OutputCategory6=Documentation
-OutputDocumentPath6=CalibratorPCB_v1.PcbDoc
+OutputDocumentPath6=CalibratorPCB_v2.PcbDoc
 OutputVariantName6=
 OutputEnabled6=0
 OutputEnabled6_OutputMedium1=0
@@ -127,7 +127,7 @@ Configuration6_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=39370079|View
 OutputType7=PDF3D
 OutputName7=PDF3D
 OutputCategory7=Documentation
-OutputDocumentPath7=CalibratorPCB_v1.PcbDoc
+OutputDocumentPath7=CalibratorPCB_v2.PcbDoc
 OutputVariantName7=
 OutputEnabled7=0
 OutputEnabled7_OutputMedium1=0
@@ -139,7 +139,7 @@ PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 OutputType8=Design Rules Check
 OutputName8=Design Rules Check
 OutputCategory8=Validation
-OutputDocumentPath8=CalibratorPCB_v1.PcbDoc
+OutputDocumentPath8=CalibratorPCB_v2.PcbDoc
 OutputVariantName8=
 OutputEnabled8=0
 OutputEnabled8_OutputMedium1=0

@@ -1,0 +1,10 @@
+Output: Calibrator_v2
+Type  : Pick Place
+From  : PCB Document [CalibratorPCB_v2.PcbDoc]
+   Generated File[Pick Place for CalibratorPCB_v2.csv]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 11:32:09 On 17.06.2022
