@@ -2,9 +2,3 @@
 Version=1.0
 [Project1]
 ProjectPath=Mainboard\Mainboard.PrjPcb
-[Project2]
-ProjectPath=..\..\..\Downloads\Telegram Desktop\SCH_pro\SCH_pro\Проект_демонстрационный\Driver_v.1\Driver_v.1.PrjPcb
-[Project3]
-ProjectPath=..\..\..\Downloads\Telegram Desktop\PCB_pro\PCB_pro\Driver_v.1\Driver_v.1.PrjPcb
-[Project4]
-ProjectPath=..\..\..\Downloads\altium_mainboard-ver_2.0\Storage_PCB\Storage_PCB_Ethernet.PrjPcb
